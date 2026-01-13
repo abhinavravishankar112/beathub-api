@@ -1,0 +1,20 @@
+{
+  "name": "beathub-api",
+  "version": "1.0.0",
+  "description": "BeatHub API with database seeding capabilities",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seed.js"
+  },
+  "keywords": ["beathub", "api", "mongoose", "seeding"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1"
+  }
+}
